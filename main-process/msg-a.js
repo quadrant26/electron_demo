@@ -5,5 +5,5 @@ ipcMain.on('msg-a', (event)=>{
 })
 
 ipcMain.on('msg-a-1', (event) => {
-    event.sender.send('msg-a-1-back', {name : "quadrant"})
+    event.sender.send('msg-a-1-back', {name : "quadrant"});
 })
