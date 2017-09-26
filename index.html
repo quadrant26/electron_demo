@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    We are using io.js <script>document.write(process.version)</script>
+    and Electron <script>document.write(process.versions['electron'])</script>.
+
+    <!-- <a href="#" id="drag">item</a>
+    <br />
+    <br />
+
+    <a href="online-status.html">在线检测</a>
+
+    <script type="text/javascript" charset="utf-8">
+    const electron = require('electron');
+    const ipcRenderer = electron.ipcRenderer;
+
+    document.getElementById('drag').ondragstart = (event) => {
+        event.preventDefault()
+        ipcRenderer.send('ondragstart', '/images/icon_expressive.png')
+    }
+    </script> -->
+
+    <button type="button" id="click">click me</button>
+    <button type="button" id="menu">menu</button>
+
+    <button type="button" id="msga">message A</button>
+
+    <button type="button" id="new">new Win</button>
+    <button type="button" id="notice">notification</button>
+
+    <a href="http://www.baidu.com">baidu</a>
+
+    <button type="button" id="fullPath">fullPath</button>
+    <script>
+        
+        // require("./renderer-process/open.js");
+        // require("./renderer-process/menu.js");
+        // require("./renderer-process/msg-a.js");
+        // require("./renderer-process/new-win.js");
+        // require("./renderer-process/notification.js");
+        // require("./renderer-process/link.js");
+        require("./renderer-process/cliboard.js");
+    </script>
+</body>
+</html>
