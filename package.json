@@ -4,5 +4,6 @@
   "main": "main.js",
   "dependencies": {
     "electron": "^1.7.6"
+    
   }
 }
