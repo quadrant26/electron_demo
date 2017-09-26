@@ -1,5 +1,4 @@
 const { app, dialog, globalShortcut } = require('electron');
-// const globalShortcut = require('electron').globalShortcut;
 
 console.log(globalShortcut.register);
 
