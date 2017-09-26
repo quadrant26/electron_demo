@@ -5,7 +5,6 @@ const btn = document.querySelector("#new");
 
 const path = require('path');
 
-
 let win;
 
 btn.onclick = () => {

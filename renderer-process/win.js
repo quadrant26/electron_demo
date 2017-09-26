@@ -10,4 +10,5 @@ onload = () => {
 
         win.webContents.send('back', winId, {name : 'quadrant', text: 'hello~~'})
     })
+    
 }
